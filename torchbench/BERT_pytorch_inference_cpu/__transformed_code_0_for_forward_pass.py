@@ -1,0 +1,15 @@
+def __transformed_code_0_for_forward_pass(self, mod, inputs, collect_outputs):
+    graph_out_0 = __compiled_fn_0(inputs[0], inputs[1])
+    mod.transformer_blocks[11].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[10].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[9].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[8].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[7].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[6].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[5].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[4].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[3].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[2].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[1].lambda_module.mask = graph_out_0[1]
+    mod.transformer_blocks[0].lambda_module.mask = graph_out_0[1]
+    return graph_out_0[0]
